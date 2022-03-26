@@ -13,3 +13,5 @@ Estou utilizando algumas das grandes bibliotecas do python para a construção d
 * Turtle
 * OpenCv
 * Tkinter
+* Visual Studio Code
+* Python 3.10
