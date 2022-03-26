@@ -6,7 +6,7 @@ if webcam.isOpened():
     validacao, frame = webcam.read()
     while validacao:
         validacao, frame = webcam.read()
-        cv2.imshow("Vídeo da webcam garaio", frame)
+        cv2.imshow("Captação da web cam", frame)
         key = cv2.waitKey(5)
 
         if key == 27: #refere-se a tecla 27
