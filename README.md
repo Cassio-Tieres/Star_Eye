@@ -12,6 +12,10 @@ além de identifar se de fato o objeto observado é uma estrela ou um planeta.
 Estou utilizando algumas das grandes bibliotecas do python para a construção desse sistema. No momento utilizei:</br>
 * Turtle
 * OpenCv
-* Tkinter
+* Tkinter/ttk
+* cgitb
+* email.mime
+* re
+* textwrap
 * Visual Studio Code
 * Python 3.10
