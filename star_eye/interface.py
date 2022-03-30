@@ -8,6 +8,9 @@ import cam
 import tkinter as tk
 from tkinter import ttk
 
+def abrirCamera():
+    cam.captacaoVideo()
+
 window = tk.Tk()
 
 window.title('Star Eye')
@@ -41,6 +44,10 @@ b_iniciarObservacao = ttk.Button(
     window,
     text='Iniciar observação',
     compound=tk.LEFT,
+    command=abrirCamera
 ).pack(ipadx=20, ipady=10, expand=True)
+
+
+
 
 window.mainloop()
