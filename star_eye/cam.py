@@ -10,7 +10,7 @@ def captacaoVideo():
             cv2.imshow("Captação da web cam", frame)
             key = cv2.waitKey(5)
 
-            if key == 27: #refere-se a tecla 27
+            if key == 27: #refere-se a tecla ESC
                 break
 
         cv2.imwrite("photograpy.jpg", frame)
